@@ -9,7 +9,7 @@ from groq import APIConnectionError, APIStatusError, RateLimitError
 
 
 APP_TITLE: Final[str] = "Personalized Workout Plan Generator"
-MODEL_NAME: Final[str] = "llama-3.3-70b-versatile"
+MODEL_NAME: Final[str] = "openai/gpt-oss-120b"
 
 
 def get_groq_api_key() -> str | None:
